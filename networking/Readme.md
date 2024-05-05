@@ -20,5 +20,5 @@ However, there may be cases where we we don't want our network traffic to go thr
     - DynamoDB
 
 Below architecture diagram of a gateway vpc endpoint showcases the implementation:
-<br> ![vpc-endpints-architecture image](architecture-images/vpc-endpints.drawio.png)
+<br> ![vpc-endpints-architecture image](architecture-images/gateway-vpc-endpints.drawio.png)
 
