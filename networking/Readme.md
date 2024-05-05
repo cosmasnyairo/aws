@@ -37,14 +37,11 @@ Below architecture diagram of a gateway vpc endpoint showcases the implementatio
 
 <br> ![alt text](architecture-images/create-gateway-vpc-endpoint-1.png)
 
-> Use the filter: `Type = Gateway` for us to create a gateway vpc endpoint.
-  Choose the service name type to be created.
-  Choose your private vpc and which route table for the prefix list entries to be added to.
+> Use the filter: `Type = Gateway` for us to create a gateway vpc endpoint then, choose the service name type to be created then choose your private vpc and which route table for the prefix list entries to be added to.
   
 <br> ![alt text](architecture-images/create-gateway-vpc-endpoint-2.png)
 
-> Choose the VPC endpoint policy to be used when accessing the resources. 
-  Tag your resources for effective cost tracking.
+> Choose the VPC endpoint policy to be used when accessing the resources and tag your resources for effective cost tracking.
 
 <br> ![alt text](architecture-images/create-gateway-vpc-endpoint-3.png)
 
