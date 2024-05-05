@@ -4,12 +4,12 @@ A short writeup of networking on aws.
 
 ## Table of Contents
  - [Notes](#notes)
- - [VPC Endpoints](#vpc-endpoints)
+ - [Gateway VPC Endpoints](#gateway-vpc-endpoints)
 
 ## Notes
   - Architecture images for all entries in: [architecture-images](architecture-images/)
 
-## VPC Endpoints
+## Gateway VPC Endpoints
 For our services, if we want to have internet access, we route the traffic via an internet gateway. 
 
 However, there may be cases where we we don't want our network traffic to go through the public internet, we could utilise vpc endpoints, with vpc endpoints, we are able to access aws services via a private network.
@@ -19,6 +19,6 @@ However, there may be cases where we we don't want our network traffic to go thr
     - AWS S3
     - DynamoDB
 
-Below architecture diagram showcases the implementation:
+Below architecture diagram of a gateway vpc endpoint showcases the implementation:
 <br> ![vpc-endpints-architecture image](architecture-images/vpc-endpints.drawio.png)
 
