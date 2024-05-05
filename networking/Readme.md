@@ -17,4 +17,5 @@ Supported services are:
  - AWS S3
  - DynamoDB
 
-    ![vpc-endpints-architecture image](architecture-images/vpc-endpints.drawio.png)
+>> Architecture Image: 
+  ![vpc-endpints-architecture image](architecture-images/vpc-endpints.drawio.png)
