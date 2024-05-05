@@ -25,22 +25,29 @@ Below architecture diagram of a gateway vpc endpoint showcases the implementatio
 
 ### Gateway VPC Endpoints Example:
 
-- Guide to creating a gateway vpc endpoint.
-  <br> ![alt text](architecture-images/create-gateway-vpc-endpoint.png)
+> Guide to creating a gateway vpc endpoint.
 
-- Step 1: On the vpc dashboard click on the endpoints tab, then create endpoint button on the right.
-  <br> ![alt text](architecture-images/create-gateway-vpc-endpoint-0.png) 
-  <br>
-- Step 2: Choose the name of the endpoint being created, For this demo, we use the aws services category, 
-  <br> ![alt text](architecture-images/create-gateway-vpc-endpoint-1.png)
-- Step 3:
-  - Use the filter: `Type = Gateway` for us to create a gateway vpc endpoint.
-  - Choose the service name type to be created.
-  - Choose your private vpc and which route table for the prefix list entries to be added to.
-  <br> ![alt text](architecture-images/create-gateway-vpc-endpoint-2.png)
-- Step 4:
-  - Choose the VPC endpoint policy to be used when accessing the resources. 
-  - Tag your resources for effective cost tracking.
-  <br> ![alt text](architecture-images/create-gateway-vpc-endpoint-3.png)
-- Our route table will have new entries added with the prefix list of the service we're connecting to:
-  <br> ![alt text](architecture-images/create-gateway-vpc-endpoint-4.png)
+<br> ![alt text](architecture-images/create-gateway-vpc-endpoint.png)
+
+> On the vpc dashboard click on the endpoints tab, then create endpoint button on the right.
+
+<br> ![alt text](architecture-images/create-gateway-vpc-endpoint-0.png) 
+
+> Choose the name of the endpoint being created, For this demo, we use the aws services category, 
+
+<br> ![alt text](architecture-images/create-gateway-vpc-endpoint-1.png)
+
+> Use the filter: `Type = Gateway` for us to create a gateway vpc endpoint.
+  Choose the service name type to be created.
+  Choose your private vpc and which route table for the prefix list entries to be added to.
+  
+<br> ![alt text](architecture-images/create-gateway-vpc-endpoint-2.png)
+
+> Choose the VPC endpoint policy to be used when accessing the resources. 
+  Tag your resources for effective cost tracking.
+
+<br> ![alt text](architecture-images/create-gateway-vpc-endpoint-3.png)
+
+> Our route table will have new entries added with the prefix list of the service we're connecting to:
+
+<br> ![alt text](architecture-images/create-gateway-vpc-endpoint-4.png)
