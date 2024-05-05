@@ -20,5 +20,5 @@ However, there may be cases where we we don't want our network traffic to go thr
     - DynamoDB
 
 Below architecture diagram showcases the implementation:
-<tab><tab> ![vpc-endpints-architecture image](architecture-images/vpc-endpints.drawio.png)
+<br> ![vpc-endpints-architecture image](architecture-images/vpc-endpints.drawio.png)
 
